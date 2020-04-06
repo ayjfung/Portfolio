@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Apercu;
+  font-weight: 300;
+  src: url("css/fonts/Apercu Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Apercu;
+  font-weight: 400;
+  src: url("css/fonts/Apercu Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Apercu;
+  font-weight: 500;
+  src: url("css/fonts/Apercu Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Apercu;
+  font-weight: 700;
+  src: url("css/fonts/Apercu Bold.otf") format("opentype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 100%;
+  font-family: Apercu, sans-serif;
+
+}
+
+p {
+  font-weight: 700;
+}
