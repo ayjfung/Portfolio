@@ -64,6 +64,11 @@ li{
   list-style-type: none;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 /* header */
 header{
   margin-left: 10%;
@@ -110,15 +115,41 @@ header{
   border-top: 0.2vw solid;
 }
 
-.projects li{
+.projects img{
   padding-top: 4vw;
-  padding-bottom: 4vw;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+.projects li{
   border-bottom: 0.2vw solid;
 }
 
 .projects a{
   font-size: 4vw;
   font-weight: 400;
+}
+
+.projects .sanctuary-container{
+  padding-top: 4vw;
+}
+
+.projects .girls-in-tech-container{
+  padding-top: 4vw;
+}
+
+.projects .sanctuary-container:hover{
+}
+
+.projects .sanctuary-container:hover img{
+  max-height: 100vw;
+  transition: max-height 0.5s ease-in;
+}
+
+.projects .girls-in-tech-container:hover img{
+  max-height: 100vw;
+  transition: max-height 0.5s ease-in;
 }
 
 /* contact */
@@ -137,6 +168,10 @@ header{
 .contact a{
   padding-bottom: 0.5vw;
   border-bottom: 0.1vw solid;
+}
+
+.contact h1{
+  padding-bottom: 3vw;
 }
 
 /* footer */
