@@ -31,9 +31,128 @@
 html{
   font-size: 100%;
   font-family: Apercu, sans-serif;
+}
 
+body{
+  background-color: rgb(230, 230, 230);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-size: 11rem;
+  font-size: 11vw;
+  font-weight: 400;
+  letter-spacing: -0.2vw;
+}
+
+h3{
+  font-size: 1.8rem;
+  font-size: 1.8vw;
+  font-weight: 400;
 }
 
 p {
-  font-weight: 700;
+  font-weight: 400;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* header */
+header{
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top: 5%;
+
+  border-bottom: 0.2vw solid;
+}
+
+.nav-link{
+  font-size: 1.8rem;
+  font-size: 1.8vw;
+  font-weight: 400;
+}
+
+.header-list{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.8vw;
+}
+
+/* about */
+.about{
+  margin-left: 10%;
+  margin-right: 30%;
+  padding-bottom: 20%;
+}
+
+.about h1{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.about h3{
+  margin-right: 35%;
+  line-height: 1.6;
+}
+
+/* projects */
+.projects{
+  margin-left: 10%;
+  margin-right: 30%;
+  padding-bottom: 20%;
+  border-top: 0.2vw solid;
+}
+
+.projects li{
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  border-bottom: 0.2vw solid;
+}
+
+.projects a{
+  font-size: 4vw;
+  font-weight: 400;
+}
+
+/* contact */
+.contact{
+  margin-left: 10%;
+  margin-right: 30%;
+  padding-bottom: 5%;
+  border-bottom: 0.2vw solid;
+}
+
+.contact h3{
+  margin-right: 35%;
+  line-height: 1.6;
+}
+
+.contact a{
+  padding-bottom: 0.5vw;
+  border-bottom: 0.1vw solid;
+}
+
+/* footer */
+footer{
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.8vw;
+}
+
+.footer-link{
+  font-size: 1.8rem;
+  font-size: 1.8vw;
+  font-weight: 400;
 }
