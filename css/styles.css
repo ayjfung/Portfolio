@@ -117,7 +117,7 @@ header{
 
 .projects img{
   padding-top: 4vw;
-  max-height: 0;
+  height: auto;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
 }
@@ -133,21 +133,24 @@ header{
 
 .projects .sanctuary-container{
   padding-top: 4vw;
+  max-height: 12vw;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
 }
 
 .projects .girls-in-tech-container{
   padding-top: 4vw;
+  max-height: 12vw;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
 }
 
 .projects .sanctuary-container:hover{
-}
-
-.projects .sanctuary-container:hover img{
   max-height: 100vw;
   transition: max-height 0.5s ease-in;
 }
 
-.projects .girls-in-tech-container:hover img{
+.projects .girls-in-tech-container:hover{
   max-height: 100vw;
   transition: max-height 0.5s ease-in;
 }
