@@ -311,3 +311,115 @@ footer{
   padding-top: 1vw;
   padding-bottom: 1vw;
 }
+
+@media screen and (max-width: 641px) {
+
+  h1{
+    font-size: 14vw;
+  }
+
+  h2{
+    font-size: 6vw;
+  }
+
+  h3{
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 2.4vw;
+  }
+
+  a{
+    font-size: 3vw;
+  }
+
+  /* Style Guide */
+  .style-guide{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.6rem solid;
+  }
+
+  .main-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.6rem solid;
+  }
+
+  /* header */
+  header{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.2rem solid;
+  }
+
+  .nav-link{
+    font-size: 3vw;
+  }
+
+  /* index.html */
+
+  /* about */
+  .about{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /* projects */
+  .projects{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .projects h1{
+    border-bottom: 0.2rem solid;
+  }
+
+  .projects li{
+    border-bottom: 0.2rem solid;
+  }
+
+  .projects a{
+    font-size: 6vw;
+  }
+
+  /* contact */
+  .contact{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.2rem solid;
+  }
+
+  .contact a{
+    font-size: 1rem;
+    border-bottom: 0.1rem solid;
+  }
+
+  /* sanctuary.html */
+
+  /* project-description */
+  .project-description{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.2rem solid;
+  }
+
+  /* footer */
+  footer{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .footer-link{
+    font-size: 3vw;
+  }
+
+  /* Citations */
+  .citations{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.2rem solid;
+  }
+
+}
