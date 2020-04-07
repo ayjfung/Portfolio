@@ -65,7 +65,22 @@ h3{
 p {
   font-size: 1.2rem;
   font-size: 1.2vw;
+}
+
+.light{
+  font-weight: 300;
+}
+
+.regular{
   font-weight: 400;
+}
+
+.medium{
+  font-weight: 500;
+}
+
+.bold{
+  font-weight: 700;
 }
 
 li{
@@ -75,6 +90,49 @@ li{
 img{
   width: 100%;
   height: auto;
+}
+
+/* Style Guide */
+.style-guide{
+  margin-left: 10%;
+  margin-right: 30%;
+  padding top: 3vw;
+  padding-bottom: 3vw;
+  border-bottom: 0.6vw solid;
+}
+
+.main-section{
+  margin-left: 10%;
+  margin-right: 30%;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  border-bottom: 0.6vw solid;
+}
+
+.sub-section{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.main-section header{
+  margin: 0;
+}
+
+.main-section footer{
+  margin: 0;
+}
+
+.main-section h3{
+  line-height: 1.6;
+}
+
+.main-section .projects{
+  margin: 0;
+}
+
+.main-section h2{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
 
 /* header */
@@ -234,4 +292,22 @@ footer{
   font-size: 1.8rem;
   font-size: 1.8vw;
   font-weight: 400;
+}
+
+/* Citations */
+.citations{
+  margin-left: 10%;
+  margin-right: 30%;
+  padding-bottom: 3vw;
+  border-bottom: 0.2vw solid;
+}
+
+.citations h1{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.citations h3{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
