@@ -50,13 +50,21 @@ h1{
   letter-spacing: -0.2vw;
 }
 
+h2{
+  font-size: 4rem;
+  font-size: 4vw;
+  font-weight: 700;
+}
+
 h3{
-  font-size: 1.8rem;
-  font-size: 1.8vw;
+  font-size: 1.6rem;
+  font-size: 1.6vw;
   font-weight: 400;
 }
 
 p {
+  font-size: 1.2rem;
+  font-size: 1.2vw;
   font-weight: 400;
 }
 
@@ -90,6 +98,8 @@ header{
   padding-bottom: 0.8vw;
 }
 
+/* index.html */
+
 /* about */
 .about{
   margin-left: 10%;
@@ -112,7 +122,11 @@ header{
   margin-left: 10%;
   margin-right: 30%;
   padding-bottom: 20%;
-  border-top: 0.2vw solid;
+}
+
+.projects h1{
+  padding-bottom: 2vw;
+  border-bottom: 0.2vw solid;
 }
 
 .projects img{
@@ -174,6 +188,32 @@ header{
 }
 
 .contact h1{
+  padding-bottom: 3vw;
+}
+
+/* sanctuary.html */
+
+/* project-description */
+.project-description{
+  margin-left: 10%;
+  margin-right: 30%;
+  border-bottom: 0.2vw solid;
+}
+
+.project-description h1{
+  padding-top: 3vw;
+}
+
+.project-description h2{
+  padding-bottom: 3vw;
+}
+
+.project-description h3{
+  line-height: 1.6;
+  padding-bottom: 3vw;
+}
+
+.project-description p{
   padding-bottom: 3vw;
 }
 
