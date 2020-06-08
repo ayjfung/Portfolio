@@ -286,9 +286,8 @@ footer{
   margin-bottom: 5%;
 }
 
-.footer-list{
-  display: flex;
-  justify-content: space-between;
+footer h3{
+  text-align: right;
   padding-top: 0.8vw;
 }
 
